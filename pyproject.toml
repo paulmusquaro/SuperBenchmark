@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "superbenchmark"
+version = "0.1.0"
+description = ""
+authors = ["paulmusquaro <136118097+paulmusquaro@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
