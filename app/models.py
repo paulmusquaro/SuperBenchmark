@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 from datetime import datetime
 
+
 class BenchmarkingResult(BaseModel):
     request_id: str
     prompt_text: str
